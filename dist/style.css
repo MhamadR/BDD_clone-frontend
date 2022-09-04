@@ -154,6 +154,7 @@ body {
 }
 
 .links {
+  width: 100%;
   list-style-type: none;
   margin-left: 20px;
   margin-top: 50px;
@@ -170,6 +171,19 @@ body {
   margin-bottom: 0px;
 }
 
+.links > li a {
+  text-decoration: none;
+  color: white;
+}
+
+.links > li:hover {
+  background-color: grey;
+}
+
+.links > li:last-child:hover {
+  background-color: black;
+}
+
 .btn {
   width: 100px;
   height: 40px;
@@ -182,4 +196,8 @@ body {
 
 .btn-blue {
   background-color: #0078bb;
+}
+
+.dropdown-menu {
+  display: none;
 }
